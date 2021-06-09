@@ -166,7 +166,10 @@ footer {
     text-transform: lowercase;
 }
 
-
+strong {
+    margin: 5px;
+    letter-spacing: 0.1ch;
+}
 
 .social {
     padding: 5px;
