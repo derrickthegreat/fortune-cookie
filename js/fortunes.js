@@ -49,7 +49,7 @@ function newFortune() {
                                                           </div>
                                                         </div>`
   document.getElementById('fortune').innerHTML = fortunes[i]
-  document.getElementById('lucky').innerHTML = '<b>Your Lucky Numbers:</b>'
+  document.getElementById('lucky').innerHTML = '<strong>Your Lucky Numbers:</strong>'
   document.getElementById('lotto').innerHTML = lottoNumbers()
   document.getElementById('button').innerHTML = `<button class="button" onclick="refresh()">New Cookie</button>`
 }

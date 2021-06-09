@@ -1,0 +1,45 @@
+#cookie {
+    text-align: center;
+    margin: 1rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.cookie-message {
+    margin: 1rem;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 35vw;
+}
+
+#fortune {
+    margin: 1rem;
+    font-size: 26px;
+    text-shadow: black;
+}
+
+#lucky {
+    margin-top: 1rem;
+    color:orangered
+}
+#lotto {
+    margin: 1rem;
+    font-size: 18px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.button-container {
+        display: flex;
+        justify-content: center;
+}

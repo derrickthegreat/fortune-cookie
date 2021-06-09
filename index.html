@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/fortunes.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fortune Cookie</title>
+    <title>Derrick Alvarez | Full-Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fortune.css">
 </head>
 <body>
-    <div class="header">
-        <h2>Fortune Cookie</h2>
-        <p id="message">Click on da cookie below to get your new fortune!</p>
-    </div>
-    <div class="container">
-        <div id="cookie">
-            <img src="./images/fortune-cookie.jpg" width="300" onclick="newFortune()" id="cookie">
-        </div>
-    </div>
-    <div class="container" id="cookie-message">
-    </div>
-    <div class="button-container">
-        <div id="button">
-        </div>
-    </div>
+    <header class="top-bar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="title" id="home">
+            <header>
+                <div class="header">
+                    <h1 class="me-name">Fortune Cookie</h1>
+                    <p id="message">Click on the cookie below to get your new fortune!</p>
+                </div>
+                <div class="container">
+                    <div id="cookie">
+                        <img src="./images/fortune-cookie.jpg" width="300" onclick="newFortune()" id="cookie">
+                    </div>
+                </div>
+                <div class="container" id="cookie-message">
+                </div>
+                <div class="button-container">
+                    <div id="button">
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>
+            <a href="https://github.com/derrickthegreat" target="_blank" class="fab fa-github social"></a> <a href="https://www.linkedin.com/in/derrick-alvarez" target="_blank" class="fab fa-linkedin social"></a> <a href="mailto:derrickcanbereached@gmail.com" class="fas fa-at"></a>
+        </p>
+    </footer>
+    <script src="./js/fortunes.js"></script>
 </body>
 </html>
