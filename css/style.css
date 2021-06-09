@@ -28,7 +28,7 @@ body {
       background-position: 0% 50%;
     }
     50% {
-      background-position: 100% 50%;
+      background-position: 80% 50%;
     }
     100% {
       background-position: 0% 50%;
@@ -174,4 +174,8 @@ strong {
     padding: 5px;
     margin-top: 0.5rem;
     font-size: 1.5rem;
+}
+
+main {
+    text-align: center;
 }
