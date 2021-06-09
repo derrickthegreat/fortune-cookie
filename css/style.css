@@ -19,8 +19,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     background: linear-gradient(140deg, rgb(111, 226, 235), rgba(224, 142, 142));
-    background-size: 200% 200%;
-    min-height: 100vh;
+    background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
 }
 
@@ -77,9 +76,9 @@ main {
 }
 
 .me-name {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Major Mono Display', monospace;
-    letter-spacing: 5px;
+    letter-spacing: 0.25ch;
     margin-bottom: 1rem;
 }
 
