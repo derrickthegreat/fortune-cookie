@@ -16,6 +16,3 @@ A random fortune generator. Click the cookie to get a random fortune & lotto num
 
 #### Attributions:
 - FreePik (stock images)
-
-### Install:
-gh repo clone derrickthegreat/fortune-cookie
